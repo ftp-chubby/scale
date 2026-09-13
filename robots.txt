@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /index%20copy%202.html
+Disallow: /indexd.html
+Disallow: /demos/
+Disallow: /email-templates/
+Disallow: /sass/
+Disallow: /rtl-css/
+
+Sitemap: https://scale-sleeves.cz/sitemap.xml
