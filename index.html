@@ -48,8 +48,14 @@
   },
   "offers": {
     "@type": "Offer",
-    "price": "570",
     "priceCurrency": "CZK",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "39",
+      "priceCurrency": "CZK",
+      "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitText": "balíček" },
+      "eligibleQuantity": { "@type": "QuantitativeValue", "minValue": 50 }
+    },
     "availability": "https://schema.org/PreOrder",
     "url": "https://www.donio.cz/scale"
   },
@@ -1048,10 +1054,13 @@
           </div>
           <div class="row justify-content-center mt-6 sm-mt-11" data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
               <div class="col-md-4 p-0">
-                  <span class="bg-dark-gray w-100 fs-30 p-7 sm-p-5 fw-700 text-white text-center d-inline-block">Od 570 Kč</span>
+                  <span class="bg-dark-gray w-100 h-100 fs-30 p-7 sm-p-5 fw-700 text-white text-center d-flex flex-column justify-content-center">
+                    <span>Od 39 Kč <span class="fs-20 fw-500">/ balíček</span></span>
+                    <span class="d-block fs-14 lh-20 fw-400 opacity-7 mt-5px">při odběru 50 balíčků po 100 obalech, bez poštovného</span>
+                  </span>
               </div>
               <div class="col-md-4 p-0">
-                  <a href="https://www.donio.cz/scale" target="_blank" rel="noopener" class="btn btn-gradient-purple-pink w-100 fs-30 border-0 p-7 sm-p-5 fw-700 text-uppercase-inherit">Podpořit na DONIO</a>
+                  <a href="https://www.donio.cz/scale" target="_blank" rel="noopener" class="btn btn-gradient-purple-pink w-100 h-100 d-flex align-items-center justify-content-center fs-30 border-0 p-7 sm-p-5 fw-700 text-uppercase-inherit">Podpořit na DONIO</a>
               </div>
           </div>
       </div>
